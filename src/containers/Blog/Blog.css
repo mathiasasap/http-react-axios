@@ -5,3 +5,32 @@
     width: 80%;
     margin: auto;
 }
+
+.Header {
+    width: 100%;
+    display: fixed;
+    top: 0;
+    left: 0;
+}
+.Header nav {
+    width: 100%;
+}
+.Header nav ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header nav ul li {
+    display: block;
+}
+
+.Header nav ul li {
+    color: #8F5C2C;
+    text-decoration: none;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    display: block;
+}
