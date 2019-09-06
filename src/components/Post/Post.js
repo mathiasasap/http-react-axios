@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom'; // In order to have the info of the routes in this component too
 
 import './Post.css';
 
@@ -11,4 +12,4 @@ const post = (props) => (
     </article>
 );
 
-export default post;
+export default withRouter(post);
